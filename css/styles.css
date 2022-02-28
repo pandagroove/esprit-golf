@@ -1,0 +1,144 @@
+/* General Changes */
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Genral Changes */
+
+/* Navbar section */
+
+.navbar .navbar-brand {
+  color: #19a1c8;
+}
+
+.nav-link {
+  color:white !important;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color:#19a1c8 !important;
+}
+
+/* Navbar section */
+
+/* Header section */
+
+#header {
+  background: url('../images/Header.jpg') no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+#header .btn-outline-secondary:hover {
+  background-color: #19a1c8;
+  color: white;
+  border: 1px solid #19a1c8;;
+}
+
+/* Header section */
+
+/* About section */
+
+#about i {
+  color: #19a1c8;
+  cursor: pointer;
+}
+
+/* About section */
+
+
+/* Videos section */
+
+#videos i {
+  color: #19a1c8;
+  cursor: pointer;
+}
+
+#videos {
+  background: url('../images/Videos.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#videos h3 {
+  color: white !important;
+}
+
+#videos p {
+  color: white !important;
+}
+
+#cards .btn-secondary:hover {
+  background-color: #19a1c8;
+  color: white;
+  border: 1px solid #19a1c8;;
+}
+
+#cards .btn-secondary {
+  background: #212529;
+  border: 1px solid #212529;
+}
+
+
+/* Videos section */
+
+/* Best COurses Section */
+
+.imageContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.imgOverlay {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height:100%;
+  background-color: #19a1c8;
+  opacity: 0;
+}
+
+.imageContainer:hover .imgOverlay {
+  opacity: 0.6;
+}
+
+.imgText {
+  position: absolute;
+  color: white;
+  left: 10px;
+  top: 10px;
+}
+
+/* Best Courses Section  */
+
+/* Footer Section */
+
+#footer {
+  background: #212529;
+  width:100%;
+}
+
+.social a {
+  color:white;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+#footer .container .content {
+  padding: 10px 20px;
+  color:white;
+}
+
+#footer .second {
+  margin-left: 100px;
+}
+
+/* Footer Section */
